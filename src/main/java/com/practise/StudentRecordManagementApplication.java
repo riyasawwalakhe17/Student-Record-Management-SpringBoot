@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StudentRecordManagementApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(StudentRecordManagementApplication.class, args);
+		System.out.println("Welcome to Student Record Management Application");
 	}
 
 }
